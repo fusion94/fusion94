@@ -7,6 +7,7 @@
 ## 🚀  Some places I've been
 - [Apple](https://apple.com)
 - [Google](https://google.com)
+- [Jibe Mobile](http://jibemobile.com/)
 - [Verizon Media](https://www.verizonmedia.com/)
 - [Appcelerator](https://appcelerator.com)
 

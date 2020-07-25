@@ -1,5 +1,11 @@
 ### Hi there 👋
 
+
+## 🚀  Some places I've been
+- [Apple](https://apple.com)
+- [Google](https://google.com)
+- [Appcelerator](https://appcelerator.com)
+
 <!--
 **fusion94/fusion94** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 

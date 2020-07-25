@@ -1,11 +1,17 @@
 # Hi there 👋
 
+- 👾  [Personal Website](https://www.fusion94.org/)
+- [Twitter](https://twitter.com/fusion94)
+- [LinkedIn](https://www.linkedin.com/in/fusion94/)
 
 ## 🚀  Some places I've been
 - [Apple](https://apple.com)
 - [Google](https://google.com)
+- [Verizon Media](https://www.verizonmedia.com/)
 - [Appcelerator](https://appcelerator.com)
 
+## 🔭 I’m currently working on ...
+ - [Siri](https://www.apple.com/siri/)
 <!--
 **fusion94/fusion94** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 

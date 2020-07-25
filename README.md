@@ -10,7 +10,7 @@
 - [Verizon Media](https://www.verizonmedia.com/)
 - [Appcelerator](https://appcelerator.com)
 
-## 🔭 I’m currently working on ...
+## 🔭 I’m currently working on
  - [Siri](https://www.apple.com/siri/)
 <!--
 **fusion94/fusion94** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

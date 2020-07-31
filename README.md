@@ -13,6 +13,11 @@
 
 ## 🔭 I’m currently working on
  - [Siri](https://www.apple.com/siri/)
+ 
+ ## 📫 How to reach me:
+ - Unsecure - fusion94@gmail.com
+ - Secure - guntharp@protonmail.ch
+ 
 <!--
 **fusion94/fusion94** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 

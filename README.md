@@ -1,11 +1,11 @@
 # Hi there 👋
 
 - 👾  [Personal Website](https://www.fusion94.org/)
-- [Twitter](https://twitter.com/fusion94)
-- [LinkedIn](https://www.linkedin.com/in/fusion94/)
+- :bird: [Twitter](https://twitter.com/fusion94)
+- :spiral_notepad: [LinkedIn](https://www.linkedin.com/in/fusion94/)
 
 ## 🚀  Some places I've been
-- [Apple](https://apple.com)
+-  [Apple](https://apple.com)
 - [Google](https://google.com)
 - [Jibe Mobile](http://jibemobile.com/)
 - [Verizon Media](https://www.verizonmedia.com/)
@@ -13,11 +13,12 @@
 
 ## 🔭 I’m currently working on
  - [Siri](https://www.apple.com/siri/)
+ - :bricks: [LEGO](https://brickset.com/sets/ownedby-fusion94)
  
  ## 📫 How to reach me:
- - Unsecure - fusion94@gmail.com
- - Secure - guntharp@protonmail.ch
- 
+ - :unlock: Unsecure - fusion94@gmail.com
+ - :closed_lock_with_key: Secure - guntharp@protonmail.ch
+
 <!--
 **fusion94/fusion94** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 

@@ -1,7 +1,6 @@
 # Hi there 👋
 
 - 👾  [Personal Website](https://www.fusion94.org/)
-- :bird: [Twitter](https://twitter.com/fusion94)
 - :spiral_notepad: [LinkedIn](https://www.linkedin.com/in/fusion94/)
 
 ## 🚀  Some places I've been
@@ -13,9 +12,12 @@
 
 ## 🔭 I’m currently working on
  - [iCloud](https://www.apple.com/iCloud)
- - [Siri](https://www.apple.com/siri/)
+ - [1971 Toyota Landcruiser (FJ40](http://project-fj.com/)
  - :bricks: [LEGO](https://brickset.com/sets/ownedby-fusion94)
- 
+
+## 💬 Previous things I've working on
+ - [Siri](https://www.apple.com/siri/)
+ - 
  ## 📫 How to reach me:
  - :unlock: Unsecure - fusion94@gmail.com
  - :closed_lock_with_key: Secure - guntharp@protonmail.ch

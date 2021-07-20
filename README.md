@@ -12,12 +12,12 @@
 
 ## 🔭 I’m currently working on
  - [iCloud](https://www.apple.com/iCloud)
- - [1971 Toyota Landcruiser (FJ40](http://project-fj.com/)
+ - [1971 Toyota Landcruiser (FJ40)](http://project-fj.com/)
  - :bricks: [LEGO](https://brickset.com/sets/ownedby-fusion94)
 
 ## 💬 Previous things I've working on
  - [Siri](https://www.apple.com/siri/)
- - 
+ 
  ## 📫 How to reach me:
  - :unlock: Unsecure - fusion94@gmail.com
  - :closed_lock_with_key: Secure - guntharp@protonmail.ch

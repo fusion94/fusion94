@@ -20,7 +20,7 @@
  
  ## 📫 How to reach me:
  - :unlock: Unsecure - fusion94@gmail.com
- - :closed_lock_with_key: Secure - guntharp@protonmail.ch
+ - :closed_lock_with_key: Secure - guntharp@damagelabs.io
 
 <!--
 **fusion94/fusion94** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

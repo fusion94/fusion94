@@ -4,6 +4,7 @@
 - :spiral_notepad: [LinkedIn](https://www.linkedin.com/in/fusion94/)
 
 ## 🚀  Some places I've been
+- [GEICO](https://www.geico.com/tech/)
 -  [Apple](https://apple.com)
 - [Google](https://google.com)
 - :speech_balloon: [Jibe Mobile](http://jibemobile.com/)

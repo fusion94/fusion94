@@ -1,5 +1,7 @@
 # Hi there 👋
 
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=fusion94&show_icons=true&custom_title=GitHub%20Stats)
+
 - 👾  [Personal Website](https://www.fusion94.org/)
 - :spiral_notepad: [LinkedIn](https://www.linkedin.com/in/fusion94/)
 

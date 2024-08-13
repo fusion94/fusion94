@@ -1,6 +1,7 @@
 # Hi there 👋
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=fusion94&show_icons=true&custom_title=GitHub%20Stats&bg_color=DEG,COLOR1,COLOR2,COLOR3...COLOR10)
+![Guntharp's GitHub stats](https://github-readme-stats.vercel.app/api?username=fusion94&show_icons=true&bg_color=00000000)
+
 
 - 👾  [Personal Website](https://www.fusion94.org/)
 - :spiral_notepad: [LinkedIn](https://www.linkedin.com/in/fusion94/)

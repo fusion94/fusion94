@@ -1,6 +1,6 @@
 # Hi there 👋
 
-![Guntharp's GitHub stats](https://github-readme-stats.vercel.app/api?username=fusion94&show_icons=true&bg_color=00000000)
+![Guntharp's GitHub stats](https://github-readme-stats.vercel.app/api?username=fusion94&show_icons=true&bg_color=00000000&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)
 
 ![Guntharp's Language stats](https://github-readme-stats.vercel.app/api/top-langs/?username=fusion94&layout=pie)
 

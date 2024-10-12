@@ -1,8 +1,11 @@
 # Hi there 👋
 
-![Guntharp's GitHub stats](https://github-readme-stats.vercel.app/api?username=fusion94&show_icons=true&bg_color=00000000&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)
-
-![Guntharp's Language stats](https://github-readme-stats.vercel.app/api/top-langs/?username=fusion94&layout=pie)
+<a href="https://github-readme-stats.vercel.app/api?username=fusion94&show_icons=true&bg_color=00000000&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage">
+  <img height=350 align="center" src="https://github-readme-stats.vercel.app/api?username=fusion94&show_icons=true&bg_color=00000000&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage" />
+</a>
+<a href="https://github-readme-stats.vercel.app/api/top-langs/?username=fusion94&layout=donut-vertical">
+  <img height=350 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=fusion94&layout=donut-vertical" />
+</a>
 
 - 👾  [Personal Website](https://www.fusion94.org/)
 - :spiral_notepad: [LinkedIn](https://www.linkedin.com/in/fusion94/)

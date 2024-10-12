@@ -2,7 +2,7 @@
 
 ![Guntharp's GitHub stats](https://github-readme-stats.vercel.app/api?username=fusion94&show_icons=true&bg_color=00000000)
 
-![Guntharp's Language stats](https://github-readme-stats.vercel.app/api/top-langs/?username=fusion94&layout=donut)
+![Guntharp's Language stats](https://github-readme-stats.vercel.app/api/top-langs/?username=fusion94&layout=pie)
 
 - 👾  [Personal Website](https://www.fusion94.org/)
 - :spiral_notepad: [LinkedIn](https://www.linkedin.com/in/fusion94/)

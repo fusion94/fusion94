@@ -13,7 +13,7 @@
 ## 🚀  Some places I've been
 - 🦎 [GEICO](https://www.geico.com/tech/)
 -  [Apple](https://apple.com)
-- 💬 [Google Messaging](https://google.com)
+- 💬 [Google](https://google.com)
 - :speech_balloon: [Jibe Mobile](http://jibemobile.com/)
 - [Verizon Media](https://www.verizonmedia.com/)
 - [Appcelerator](https://appcelerator.com)

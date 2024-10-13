@@ -7,9 +7,6 @@
   <img height=350 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=fusion94&layout=donut-vertical" />
 </a>
 
-- 👾  [Personal Website](https://www.fusion94.org/)
-- :spiral_notepad: [LinkedIn](https://www.linkedin.com/in/fusion94/)
-
 ## 🚀  Some places I've been
 - 🦎 [GEICO](https://www.geico.com/tech/)
 -  [Apple](https://apple.com)
@@ -30,6 +27,8 @@
  ## 📫 How to reach me:
  - :unlock: Unsecure - fusion94@gmail.com
  - :closed_lock_with_key: Secure - guntharp@damagelabs.io
+- 👾  [Personal Website](https://www.fusion94.org/)
+- :spiral_notepad: [LinkedIn](https://www.linkedin.com/in/fusion94/)
 
 <!--
 **fusion94/fusion94** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

@@ -7,6 +7,14 @@
   <img height=350 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=fusion94&layout=donut-vertical" />
 </a>
 
+<br><br><br>
+My Own Vercel
+
+<a href="https://github-readme-stats-phi-six-88.vercel.app/api username=fusion94&show_icons=true&bg_color=00000000&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage">
+ <img height=350 align="center" src="https://github-readme-stats-phi-six-88.vercel.app/api?username=fusion94&show_icons=true&bg_color=00000000&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage" />
+</a>
+
+
 ## 🚀  Some places I've been
 - 🦎 [GEICO](https://www.geico.com/tech/)
 -  [Apple](https://apple.com)

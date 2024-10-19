@@ -7,6 +7,11 @@
   <img height=350 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=fusion94&layout=donut-vertical" />
 </a>
 
+
+<!---
+[![](https://ossrank.com/widget/970472)](https://ossrank.com/c/970472)
+-->
+
 ## 🚀  Some places I've been
 - 🦎 [GEICO](https://www.geico.com/tech/)
 -  [Apple](https://apple.com)

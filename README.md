@@ -1,10 +1,10 @@
 # Hi there 👋
 
-![Stats](./profile/stats.svg)
+![Stats](./profile/stats.svg)<br>
 ![Top Languages](./profile/top-langs.svg)
-![Pinned](./profile/pin-readme-tools-github-readme-stats.svg)
 
-<!---
+<!--
+![Pinned](./profile/pin-readme-tools-github-readme-stats.svg)
 [![](https://ossrank.com/widget/970472)](https://ossrank.com/c/970472)
 -->
 

@@ -7,12 +7,14 @@
   <img height=350 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=fusion94&layout=donut-vertical" />
 </a>
 
+![Stats](./profile/stats.svg)
 
 <!---
 [![](https://ossrank.com/widget/970472)](https://ossrank.com/c/970472)
 -->
 
-## 🚀  Some places I've been
+## 🚀 Some places I've been
+
 - 🦎 [GEICO](https://www.geico.com/tech/)
 -  [Apple](https://apple.com)
 - 💬 [Google](https://google.com)
@@ -22,17 +24,20 @@
 - 🔨 [SourceForge](http://sourceforge.net) (the original)
 
 ## 🔭 I’m currently working on
- - 🛻 [1971 Toyota Landcruiser (FJ40)](http://project-fj.com/)
- - :bricks: [LEGO](https://brickset.com/sets/ownedby-fusion94)
+
+- 🛻 [1971 Toyota Landcruiser (FJ40)](http://project-fj.com/)
+- :bricks: [LEGO](https://brickset.com/sets/ownedby-fusion94)
 
 ## 💬 Previous things I've working on
- - :cloud: [iCloud](https://www.apple.com/iCloud)
- - [Siri/AIML](https://www.apple.com/siri/)
- 
- ## 📫 How to reach me:
- - :unlock: Unsecure - fusion94@gmail.com
- - :closed_lock_with_key: Secure - guntharp@damagelabs.io
-- 👾  [Personal Website](https://www.fusion94.org/)
+
+- :cloud: [iCloud](https://www.apple.com/iCloud)
+- [Siri/AIML](https://www.apple.com/siri/)
+
+## 📫 How to reach me:
+
+- :unlock: Unsecure - fusion94@gmail.com
+- :closed_lock_with_key: Secure - guntharp@damagelabs.io
+- 👾 [Personal Website](https://www.fusion94.org/)
 - :spiral_notepad: [LinkedIn](https://www.linkedin.com/in/fusion94/)
 
 <!--

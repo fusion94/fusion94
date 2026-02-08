@@ -2,7 +2,7 @@ name: Update README cards
 
 on:
   schedule:
-    - cron: "0 0 * * *" # Runs once daily at midnight
+    - cron: "0 */4 * * *" # Runs every 4 hours
   workflow_dispatch:
 
 jobs:

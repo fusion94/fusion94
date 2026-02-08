@@ -7,6 +7,21 @@
 ![Trophy](https://github-profile-trophy-kannan.vercel.app/?username=fusion94&theme=flat&no-frame=true&column=-1)<br>
 ![Pinned](./profile/pin-whiskey-canon.svg)
 
+## 🛠 Tech Stack
+
+![Ruby](https://img.shields.io/badge/Ruby-CC342D?style=flat&logo=ruby&logoColor=white)
+![Rails](https://img.shields.io/badge/Rails-D30001?style=flat&logo=rubyonrails&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Shell](https://img.shields.io/badge/Shell-4EAA25?style=flat&logo=gnubash&logoColor=white)
+![C](https://img.shields.io/badge/C-A8B9CC?style=flat&logo=c&logoColor=black)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white)
+![Objective-C](https://img.shields.io/badge/Objective--C-438EFF?style=flat&logo=apple&logoColor=white)
+![Arduino](https://img.shields.io/badge/Arduino-00878F?style=flat&logo=arduino&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
+
 ## 🚀 Some places I've been
 
 - 🦎 [GEICO](https://www.geico.com/tech/)
@@ -22,7 +37,7 @@
 - 🛻 [1971 Toyota Landcruiser (FJ40)](http://project-fj.com/)
 - :bricks: [LEGO](https://brickset.com/sets/ownedby-fusion94)
 
-## 💬 Previous things I've working on
+## 💬 Previous things I've been working on
 
 - :cloud: [iCloud](https://www.apple.com/iCloud)
 - [Siri/AIML](https://www.apple.com/siri/)

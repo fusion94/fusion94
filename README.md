@@ -1,12 +1,11 @@
 # Hi there 👋
 
-![Stats](./profile/stats.svg)<br>
-![Top Languages](./profile/top-langs.svg)<br>
-![Streak](./profile/streak.svg)<br>
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=fusion94&theme=github-compact)<br>
-![Trophy](https://github-profile-trophy-kannan.vercel.app/?username=fusion94&theme=flat&no-frame=true&column=-1)
-
-![Pinned](./profile/pin-whiskey-canon.svg)
+<img src="./profile/stats.svg" width="495"><br>
+<img src="./profile/top-langs.svg" width="495"><br>
+<img src="./profile/streak.svg" width="495"><br>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=fusion94&theme=github-compact" width="495"><br>
+<img src="https://github-profile-trophy-kannan.vercel.app/?username=fusion94&theme=flat&no-frame=true&column=-1" width="495"><br>
+<img src="./profile/pin-whiskey-canon.svg" width="495">
 
 ## 🚀 Some places I've been
 

@@ -31,6 +31,14 @@ jobs:
           path: profile/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Generate pin card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: pin
+          options: username=DamageLabs&repo=whiskey-canon
+          path: profile/pin-whiskey-canon.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Generate streak card
         uses: Pranesh-2005/github-readme-stats-fast-action@v1
         with:

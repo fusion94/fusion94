@@ -6,10 +6,7 @@
 ![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=fusion94&theme=github-compact)<br>
 ![Trophy](https://github-profile-trophy-kannan.vercel.app/?username=fusion94&theme=flat&no-frame=true&column=-1)
 
-<!--
-![Pinned](./profile/pin-readme-tools-github-readme-stats.svg)
-[![](https://ossrank.com/widget/970472)](https://ossrank.com/c/970472)
--->
+![Pinned](./profile/pin-whiskey-canon.svg)
 
 ## 🚀 Some places I've been
 

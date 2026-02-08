@@ -3,8 +3,8 @@
 <img src="./profile/stats.svg" width="540"><br>
 <img src="./profile/top-langs.svg" width="540"><br>
 <img src="./profile/streak.svg" width="540"><br>
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=fusion94&theme=github-compact" width="540"><br>
-<img src="https://github-profile-trophy-kannan.vercel.app/?username=fusion94&theme=flat&no-frame=true&column=-1" width="540"><br>
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=fusion94&theme=github-compact)<br>
+![Trophy](https://github-profile-trophy-kannan.vercel.app/?username=fusion94&theme=flat&no-frame=true&column=-1)<br>
 <img src="./profile/pin-whiskey-canon.svg" width="540">
 
 ## 🚀 Some places I've been

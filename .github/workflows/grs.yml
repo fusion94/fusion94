@@ -31,14 +31,6 @@ jobs:
           path: profile/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Generate pin card
-        uses: readme-tools/github-readme-stats-action@v1
-        with:
-          card: pin
-          options: username=readme-tools&repo=github-readme-stats
-          path: profile/pin-readme-tools-github-readme-stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-
       - name: Generate streak card
         uses: Pranesh-2005/github-readme-stats-fast-action@v1
         with:
@@ -52,5 +44,6 @@ jobs:
           git config user.name "fusion94"
           git config user.email "fusion94@gmail.com"
           git add profile/*.svg
-          git commit -m "Update README cards" || exit 0
+          git diff --staged --quiet || git commit -m "Update README cards"
+          git pull --rebase
           git push

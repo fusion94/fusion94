@@ -61,7 +61,11 @@
 ## 📰 Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
-
+- [A Warning regarding Liquor Stars](https://www.fusion94.org/2026/01/15/warning-liquor-stars/)
+- [Bourbon vs Rye vs Wheat](https://www.fusion94.org/2026/01/04/bourbon-rye-wheat/)
+- [Bourbon 101](https://www.fusion94.org/2026/01/03/bourbon-101/)
+- [Scotch and Irish Whiskey Explained](https://www.fusion94.org/2025/12/30/scotch-vs-irish/)
+- [8-Week Garmin-Powered Golf Improvement Plan](https://www.fusion94.org/2025/10/25/garmin-golf-improvement-plan/)
 <!-- BLOG-POST-LIST:END -->
 
 ## 📫 How to reach me

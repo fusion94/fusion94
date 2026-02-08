@@ -2,7 +2,8 @@
 
 ![Stats](./profile/stats.svg)<br>
 ![Top Languages](./profile/top-langs.svg)<br>
-![Streak](./profile/streak.svg)
+![Streak](./profile/streak.svg)<br>
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=fusion94&theme=github-compact)
 
 <!--
 ![Pinned](./profile/pin-readme-tools-github-readme-stats.svg)

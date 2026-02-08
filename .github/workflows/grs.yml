@@ -60,6 +60,7 @@ jobs:
         with:
           feed_list: "https://www.fusion94.org/feed.xml"
           max_post_count: 5
+          output_only: true
 
       - name: Commit cards
         run: |

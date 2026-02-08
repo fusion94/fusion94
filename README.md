@@ -1,11 +1,20 @@
 # Hi there 👋
 
+![Visitor Count](https://komarev.com/ghpvc/?username=fusion94&style=flat&color=blue)
+
+<details>
+<summary>📊 GitHub Stats</summary>
+<br>
+
 ![Stats](./profile/stats.svg)<br>
 ![Top Languages](./profile/top-langs.svg)<br>
 ![Streak](./profile/streak.svg)<br>
 ![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=fusion94&theme=github-compact)<br>
 ![Trophy](https://github-profile-trophy-kannan.vercel.app/?username=fusion94&theme=flat&no-frame=true&column=-1)<br>
-![Pinned](./profile/pin-whiskey-canon.svg)
+![Pinned](./profile/pin-whiskey-canon.svg)<br>
+![Pinned](./profile/pin-paper-trail-manager.svg)
+
+</details>
 
 ## 🛠 Tech Stack
 
@@ -27,41 +36,36 @@
 ## 🚀 Some places I've been
 
 - 🦎 [GEICO](https://www.geico.com/tech/)
--  [Apple](https://apple.com)
+- 🍎 [Apple](https://apple.com)
 - 💬 [Google](https://google.com)
-- :speech_balloon: [Jibe Mobile](http://jibemobile.com/)
+- 💬 [Jibe Mobile](http://jibemobile.com/)
 - ☎️ [Verizon Media](https://www.verizonmedia.com/)
 - 📱 [Appcelerator](https://appcelerator.com)
 - 🔨 [SourceForge](http://sourceforge.net) (the original)
 
-## 🔭 I’m currently working on
+## 🔭 I'm currently working on
 
 - 🛻 [1971 Toyota Landcruiser (FJ40)](http://project-fj.com/)
-- :bricks: [LEGO](https://brickset.com/sets/ownedby-fusion94)
+- 🧱 [LEGO](https://brickset.com/sets/ownedby-fusion94)
+
+## 🌱 Currently learning
+
+- 🦀 [Rust](https://www.rust-lang.org/)
+- 🐹 [Go](https://go.dev/)
 
 ## 💬 Previous things I've been working on
 
-- :cloud: [iCloud](https://www.apple.com/iCloud)
-- [Siri/AIML](https://www.apple.com/siri/)
+- ☁️ [iCloud](https://www.apple.com/iCloud)
+- 🗣️ [Siri/AIML](https://www.apple.com/siri/)
 
-## 📫 How to reach me:
+## 📰 Latest Blog Posts
 
-- :unlock: Unsecure - fusion94@gmail.com
-- :closed_lock_with_key: Secure - guntharp@damagelabs.io
-- 👾 [Personal Website](https://www.fusion94.org/)
-- :spiral_notepad: [LinkedIn](https://www.linkedin.com/in/fusion94/)
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
 
-<!--
-**fusion94/fusion94** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## 📫 How to reach me
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:fusion94@gmail.com)
+[![ProtonMail](https://img.shields.io/badge/ProtonMail-6D4AFF?style=flat&logo=protonmail&logoColor=white)](mailto:guntharp@damagelabs.io)
+[![Website](https://img.shields.io/badge/Website-4285F4?style=flat&logo=googlechrome&logoColor=white)](https://www.fusion94.org/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fusion94/)

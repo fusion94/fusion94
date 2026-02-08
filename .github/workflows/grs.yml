@@ -39,6 +39,14 @@ jobs:
           path: profile/pin-whiskey-canon.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Generate paper_trail_manager pin card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: pin
+          options: username=fusion94&repo=paper_trail_manager
+          path: profile/pin-paper-trail-manager.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Generate streak card
         uses: Pranesh-2005/github-readme-stats-fast-action@v1
         with:
@@ -47,11 +55,17 @@ jobs:
           path: profile/streak.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Update blog posts
+        uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          feed_list: "https://www.fusion94.org/feed.xml"
+          max_post_count: 5
+
       - name: Commit cards
         run: |
           git config user.name "fusion94"
           git config user.email "fusion94@gmail.com"
-          git add profile/*.svg
+          git add profile/*.svg README.md
           git diff --staged --quiet || git commit -m "Update README cards"
           git pull --rebase -X theirs
           git push

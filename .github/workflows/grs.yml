@@ -65,12 +65,14 @@ jobs:
         with:
           feed_list: "https://www.fusion94.org/feed.xml"
           max_post_count: 5
+          gh_token: ${{ secrets.GITHUB_TOKEN }}
           committer_username: fusion94
           committer_email: fusion94@gmail.com
+          skip_commit: "true"
 
       - name: Commit cards
         run: |
-          git add profile/*.svg
+          git add profile/*.svg README.md
           git diff --staged --quiet || git commit -m "Update README cards"
           git pull --rebase -X theirs
           git push

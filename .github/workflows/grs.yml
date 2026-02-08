@@ -64,13 +64,14 @@ jobs:
         run: |
           POSTS=$(curl -s https://www.fusion94.org/feed.xml | \
             python3 -c "
-          import sys, xml.etree.ElementTree as ET
-          tree = ET.parse(sys.stdin)
-          items = tree.findall('.//item')[:5]
+          import sys, re
+          content = sys.stdin.read()
+          items = re.findall(r'<item>.*?</item>', content, re.DOTALL)[:5]
           for item in items:
-              title = item.find('title').text
-              link = item.find('link').text
-              print(f'- [{title}]({link})')
+              title = re.search(r'<title>(.*?)</title>', item)
+              link = re.search(r'<link>(.*?)</link>', item)
+              if title and link:
+                  print(f'- [{title.group(1)}]({link.group(1)})')
           ")
           awk -v posts="$POSTS" '
             /BLOG-POST-LIST:START/{print; print posts; skip=1; next}

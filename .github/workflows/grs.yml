@@ -62,7 +62,7 @@ jobs:
 
       - name: Update blog posts
         run: |
-          POSTS=$(curl -s https://www.fusion94.org/feed.xml | \
+          POSTS=$(curl -sL https://www.fusion94.org/feed.xml | \
             python3 -c "
           import sys, re
           content = sys.stdin.read()
@@ -71,7 +71,10 @@ jobs:
               title = re.search(r'<title>(.*?)</title>', item)
               link = re.search(r'<link>(.*?)</link>', item)
               if title and link:
-                  print(f'- [{title.group(1)}]({link.group(1)})')
+                  url = link.group(1)
+                  if url.startswith('/'):
+                      url = 'https://www.fusion94.org' + url
+                  print(f'- [{title.group(1)}]({url})')
           ")
           awk -v posts="$POSTS" '
             /BLOG-POST-LIST:START/{print; print posts; skip=1; next}

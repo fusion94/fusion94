@@ -61,14 +61,23 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Update blog posts
-        uses: gautamkrishnar/blog-post-workflow@v1
-        with:
-          feed_list: "https://www.fusion94.org/feed.xml"
-          max_post_count: 5
-          gh_token: ${{ secrets.GITHUB_TOKEN }}
-          committer_username: fusion94
-          committer_email: fusion94@gmail.com
-          skip_commit: "true"
+        run: |
+          POSTS=$(curl -s https://www.fusion94.org/feed.xml | \
+            python3 -c "
+          import sys, xml.etree.ElementTree as ET
+          tree = ET.parse(sys.stdin)
+          items = tree.findall('.//item')[:5]
+          for item in items:
+              title = item.find('title').text
+              link = item.find('link').text
+              print(f'- [{title}]({link})')
+          ")
+          awk -v posts="$POSTS" '
+            /BLOG-POST-LIST:START/{print; print posts; skip=1; next}
+            /BLOG-POST-LIST:END/{skip=0}
+            skip{next}
+            {print}
+          ' README.md > README.tmp && mv README.tmp README.md
 
       - name: Commit cards
         run: |

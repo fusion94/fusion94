@@ -1,0 +1,32 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:github.com)",
+      "Bash(gh api:*)",
+      "Bash(gh run list:*)",
+      "Bash(gh run view:*)",
+      "Bash(git pull:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nFix workflow: remove unused pin card, improve commit reliability\n\nRemove pin card step that generated an unused SVG for a third-party repo.\nReplace error-swallowing `|| exit 0` with `git diff --staged --quiet` guard\nand add `git pull --rebase` before push to prevent race condition failures.\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git push:*)",
+      "Bash(gh workflow run:*)",
+      "Bash(gh run watch:*)",
+      "Bash(git stash:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nUse -X theirs on rebase to resolve SVG conflicts automatically\n\nFreshly generated SVGs should always win over previous versions when\nconcurrent workflow runs cause rebase conflicts.\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git commit:*)",
+      "WebFetch(domain:github-profile-trophy.vercel.app)",
+      "WebFetch(domain:github-trophies.vercel.app)",
+      "WebFetch(domain:github-profile-trophy-winning.vercel.app)",
+      "WebFetch(domain:github-profile-trophy-liard-delta.vercel.app)",
+      "WebFetch(domain:github-profile-trophy-kannan.vercel.app)",
+      "Bash(gh repo list:*)",
+      "Bash(gh repo view:*)",
+      "Bash(git rm:*)",
+      "Bash(for f in /Users/guntharp/Code/fusion94/profile/*.svg)",
+      "Bash(done)",
+      "WebFetch(domain:www.fusion94.org)",
+      "Bash(curl:*)"
+    ]
+  }
+}

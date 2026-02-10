@@ -26,7 +26,8 @@
       "Bash(for f in /Users/guntharp/Code/fusion94/profile/*.svg)",
       "Bash(done)",
       "WebFetch(domain:www.fusion94.org)",
-      "Bash(curl:*)"
+      "Bash(curl:*)",
+      "Bash(git fetch:*)"
     ]
   }
 }

@@ -27,7 +27,8 @@
       "Bash(done)",
       "WebFetch(domain:www.fusion94.org)",
       "Bash(curl:*)",
-      "Bash(git fetch:*)"
+      "Bash(git fetch:*)",
+      "Bash(gh issue list:*)"
     ]
   }
 }

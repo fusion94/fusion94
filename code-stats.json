@@ -1,0 +1,28 @@
+{
+  "generated": "2026-02-10T00:00:00Z",
+  "dateRange": { "start": "2026-01-01", "end": "2026-02-10" },
+  "authorFilter": null,
+  "totals": {
+    "commits": 375,
+    "linesAdded": 111540,
+    "linesRemoved": 49897,
+    "mergedPRs": 123,
+    "issuesCreated": 270,
+    "issuesClosed": 170
+  },
+  "repos": {
+    "whiskey-canon": { "commits": 107, "linesAdded": 28463, "linesRemoved": 4289, "mergedPRs": 42, "testLinesAdded": 12221, "appLinesAdded": 16242, "issuesCreated": 51, "issuesClosed": 17 },
+    "whiskey-canon-blinds": { "commits": 60, "linesAdded": 35384, "linesRemoved": 1188, "mergedPRs": 52, "testLinesAdded": 3269, "appLinesAdded": 32115, "issuesCreated": 1, "issuesClosed": 0 },
+    "sports-card-tracker": { "commits": 54, "linesAdded": 12191, "linesRemoved": 1815, "mergedPRs": 7, "testLinesAdded": 6637, "appLinesAdded": 5554, "issuesCreated": 32, "issuesClosed": 7 },
+    "fusion94": { "commits": 73, "linesAdded": 2401, "linesRemoved": 738, "mergedPRs": 0, "testLinesAdded": 0, "appLinesAdded": 2401, "issuesCreated": 0, "issuesClosed": 0 },
+    "cellar-sync": { "commits": 27, "linesAdded": 6284, "linesRemoved": 4243, "mergedPRs": 3, "testLinesAdded": 0, "appLinesAdded": 6284, "issuesCreated": 33, "issuesClosed": 1 },
+    "rims": { "commits": 24, "linesAdded": 12407, "linesRemoved": 33480, "mergedPRs": 19, "testLinesAdded": 0, "appLinesAdded": 12407, "issuesCreated": 24, "issuesClosed": 22 },
+    "sh-underground": { "commits": 14, "linesAdded": 5519, "linesRemoved": 535, "mergedPRs": 0, "testLinesAdded": 0, "appLinesAdded": 5519, "issuesCreated": 0, "issuesClosed": 0 },
+    "StringAlong": { "commits": 9, "linesAdded": 1063, "linesRemoved": 36, "mergedPRs": 0, "testLinesAdded": 0, "appLinesAdded": 1063, "issuesCreated": 0, "issuesClosed": 0 },
+    "fusion94.org": { "commits": 4, "linesAdded": 6021, "linesRemoved": 3388, "mergedPRs": 0, "testLinesAdded": 0, "appLinesAdded": 6021, "issuesCreated": 0, "issuesClosed": 0 },
+    "damagelabs-www": { "commits": 2, "linesAdded": 1679, "linesRemoved": 9, "mergedPRs": 0, "testLinesAdded": 0, "appLinesAdded": 1679, "issuesCreated": 0, "issuesClosed": 0 },
+    "collectorsplaybook": { "commits": 1, "linesAdded": 128, "linesRemoved": 176, "mergedPRs": 0, "testLinesAdded": 0, "appLinesAdded": 128, "issuesCreated": 0, "issuesClosed": 0 },
+    "clahub": { "commits": 0, "linesAdded": 0, "linesRemoved": 0, "mergedPRs": 0, "testLinesAdded": 0, "appLinesAdded": 0, "issuesCreated": 120, "issuesClosed": 120 },
+    "fitbit2garmin": { "commits": 0, "linesAdded": 0, "linesRemoved": 0, "mergedPRs": 0, "testLinesAdded": 0, "appLinesAdded": 0, "issuesCreated": 9, "issuesClosed": 3 }
+  }
+}

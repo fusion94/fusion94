@@ -1,248 +1,222 @@
 # Code Statistics Report
 
-**Period:** January 1, 2026 - February 10, 2026
-**Generated:** 2026-02-10
-**Repositories Scanned:** 23
+**Date Range:** 2026-01-01 to 2026-02-10 (41 days, ~5.86 weeks)
+**Author Filter:** None (all authors)
 
 ---
 
 ## Executive Summary
 
-Development activity continues to accelerate with **495 total commits** across **13 active repositories** — up 15.7% from 428 commits in the previous report (Feb 9). Two new projects emerged: **cellar-sync** (30 commits, 3 merged PRs, a new whiskey cellar management app) and **sh-underground** (14 commits, a fork/migration of the underground repo with 1.5M+ lines churned). **whiskey-canon** remains the dominant project at 148 commits and 42 merged PRs with strong 36.8% test code investment, while **fusion94** surged from 58 to 71 commits. The **18-day commit streak** (Jan 24 – Feb 10, ongoing) and a shift toward more weekday activity (52.9% vs previous 45.3%) suggest increasing project momentum.
+Over the 41-day reporting period, **whiskey-canon** was the most active repository by commits (107), while **whiskey-canon-blinds** led in merged PRs (52) and lines added (35,384). Activity was heavily concentrated in weeks 4 through 7, with a strong 18-day consecutive commit streak from January 24 to February 10. The **rims** repository underwent a major refactoring effort, removing 33,480 lines of code during the period.
 
 ---
 
-## Summary
+## Summary Table
 
-| Metric | Total |
+| Metric | Value |
 |--------|-------|
-| **Active Repositories** | 13 |
-| **Inactive Repositories** | 10 |
-| **Total Commits** | 495 |
-| **Total Lines Added** | 3,270,569 |
-| **Total Lines Removed** | 4,139,315 |
-| **Net Lines Changed** | -868,746 |
-| **Total Merged PRs** | 123 |
-| **Avg Commits/Day** | 12.1 |
-| **Avg Commits/Week** | 84.5 |
-
-> **Note:** The net negative line count is primarily from **sports-card-tracker** (2.37M lines removed in vendored dependency cleanup) and **sh-underground** (1.5M lines removed in repo migration). Both **underground** and **sh-underground** contain 1.5M+ lines of bulk-imported code.
+| Total Commits | 375 |
+| Total Lines Added | 111,540 |
+| Total Lines Removed | 49,897 |
+| Net Lines | +61,643 |
+| Total Merged PRs | 123 |
+| Issues Created (all repos) | 270 |
+| Issues Closed (all repos) | 170 |
 
 ---
 
 ## Test vs Application Code Breakdown
 
-| Category | Lines Added | % Added | Lines Removed | % Removed | Net Change |
-|----------|-------------|---------|---------------|-----------|------------|
-| **Application Code** | 3,238,636 | 99.0% | 4,090,744 | 98.8% | -852,108 |
-| **Test Code** | 31,933 | 1.0% | 48,571 | 1.2% | -16,638 |
-| **Total** | 3,270,569 | 100% | 4,139,315 | 100% | -868,746 |
+| Category | Lines Added | % of Added | Lines Removed | Net Change |
+|----------|-------------|------------|---------------|------------|
+| Test Code | 22,127 | 19.8% | 1,702 | +20,425 |
+| Application Code | 89,413 | 80.2% | 48,195 | +41,218 |
+| **Total** | **111,540** | **100.0%** | **49,897** | **+61,643** |
 
-> **Excluding bulk import/migration repos** (`underground` 1.5M+ added, `sh-underground` 1.5M+ churned, `sports-card-tracker` 2.3M removed), the adjusted breakdown is:
-
-| Category | Lines Added | % Added | Lines Removed | % Removed | Net Change |
-|----------|-------------|---------|---------------|-----------|------------|
-| **Application Code** | 133,412 | 89.6% | 71,543 | 97.9% | +61,869 |
-| **Test Code** | 15,490 | 10.4% | 1,531 | 2.1% | +13,959 |
-| **Total** | 148,902 | 100% | 73,074 | 100% | +75,828 |
+> **Note:** Only 3 repositories had test code during this period: whiskey-canon (12,221 test lines added), sports-card-tracker (6,637), and whiskey-canon-blinds (3,269). The remaining 8 active repositories had no test code changes. Test ratio stands at 19.8% of total lines added.
 
 ---
 
 ## Weekly Velocity
 
-| Week | Dates | Commits | Merged PRs |
-|------|-------|---------|------------|
-| W01 | Dec 29 – Jan 4 | 5 | — |
-| W02 | Jan 5 – Jan 11 | 1 | — |
-| W03 | Jan 12 – Jan 18 | 1 | — |
-| W04 | Jan 19 – Jan 25 | 80 | — |
-| W05 | Jan 26 – Feb 1 | 97 | — |
-| W06 | Feb 2 – Feb 8 | 214 | — |
-| W07 | Feb 9 – Feb 10 (partial) | 97 | — |
-
-> **Note:** PR merge counts are aggregated at the repo level (see Active Repositories table) rather than per-week due to GitHub API limitations on date-range filtering. W06 remains the most active week with 214 commits.
+| Week | Date Range | Commits |
+|------|------------|---------|
+| W01 | Dec 30 - Jan 5 | 5 |
+| W02 | Jan 6 - Jan 12 | 1 |
+| W03 | Jan 13 - Jan 19 | 1 |
+| W04 | Jan 20 - Jan 26 | 44 |
+| W05 | Jan 27 - Feb 2 | 58 |
+| W06 | Feb 3 - Feb 9 | 177 |
+| W07 | Feb 10 - Feb 16 | 89 |
 
 ```mermaid
 xychart-beta
     title "Weekly Commit Velocity"
     x-axis ["W01", "W02", "W03", "W04", "W05", "W06", "W07"]
-    y-axis "Commits" 0 --> 230
-    bar [5, 1, 1, 80, 97, 214, 97]
+    y-axis "Commits" 0 --> 200
+    bar [5, 1, 1, 44, 58, 177, 89]
 ```
 
 ---
 
 ## Activity Patterns
 
-### Day of Week
+### Day of Week Distribution
 
 | Day | Commits | % of Total |
 |-----|---------|------------|
-| Sunday | 124 | 25.1% |
-| Saturday | 109 | 22.0% |
-| Monday | 91 | 18.4% |
-| Tuesday | 61 | 12.3% |
-| Friday | 49 | 9.9% |
-| Thursday | 37 | 7.5% |
-| Wednesday | 24 | 4.8% |
+| Monday | 71 | 18.9% |
+| Tuesday | 51 | 13.6% |
+| Wednesday | 14 | 3.7% |
+| Thursday | 33 | 8.8% |
+| Friday | 31 | 8.3% |
+| Saturday | 74 | 19.7% |
+| Sunday | 101 | 26.9% |
 
 ```mermaid
 xychart-beta
     title "Commits by Day of Week"
     x-axis ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
-    y-axis "Commits" 0 --> 130
-    bar [91, 61, 24, 37, 49, 109, 124]
+    y-axis "Commits" 0 --> 120
+    bar [71, 51, 14, 33, 31, 74, 101]
 ```
 
-> Weekend activity (47.1%) is now more balanced with weekday activity (52.9%), compared to 54.7% weekend in the previous report — indicating increasing weekday development momentum.
+### Time of Day Distribution
 
-### Time of Day
-
-| Time Bucket | Commits | % of Total |
-|-------------|---------|------------|
-| Morning (6–12) | 130 | 26.3% |
-| Afternoon (12–18) | 240 | 48.5% |
-| Evening (18–24) | 97 | 19.6% |
-| Night (0–6) | 28 | 5.7% |
+| Time Block | Commits | % of Total |
+|------------|---------|------------|
+| Morning (6-12) | 98 | 26.1% |
+| Afternoon (12-18) | 183 | 48.8% |
+| Evening (18-24) | 71 | 18.9% |
+| Night (0-6) | 23 | 6.1% |
 
 ```mermaid
 xychart-beta
     title "Commits by Time of Day"
-    x-axis ["Night (0-6)", "Morning (6-12)", "Afternoon (12-18)", "Evening (18-24)"]
-    y-axis "Commits" 0 --> 260
-    bar [28, 130, 240, 97]
+    x-axis ["Morning (6-12)", "Afternoon (12-18)", "Evening (18-24)", "Night (0-6)"]
+    y-axis "Commits" 0 --> 200
+    bar [98, 183, 71, 23]
 ```
 
-### Commit Streak
+### Longest Streak
 
-| Metric | Value |
-|--------|-------|
-| **Longest Streak** | 18 consecutive days |
-| **Streak Period** | Jan 24 – Feb 10 (ongoing) |
+**18 consecutive days** with at least one commit (January 24 - February 10, 2026).
 
 ---
 
-## Active Repositories (sorted by commits, descending)
+## Repository Breakdown
 
-| Repository | Commits | App Lines + | Test Lines + | Total + | Total - | Net Change | Merged PRs |
-|------------|---------|-------------|--------------|---------|---------|------------|------------|
-| whiskey-canon | 148 (29.9%) | 20,943 | 12,221 | 33,164 | 6,413 | +26,751 | 42 |
-| whiskey-canon-blinds | 109 (22.0%) | 51,336 | 3,269 | 54,605 | 7,500 | +47,105 | 52 |
-| fusion94 | 71 (14.3%) | 2,246 | 0 | 2,246 | 598 | +1,648 | 0 |
-| sports-card-tracker | 61 (12.3%) | 12,542 | 6,637 | 19,179 | 2,372,213 | -2,353,034 | 7 |
-| rims | 40 (8.1%) | 24,935 | 0 | 24,935 | 36,128 | -11,193 | 19 |
-| cellar-sync | 30 (6.1%) | 21,296 | 0 | 21,296 | 17,646 | +3,650 | 3 |
-| sh-underground | 14 (2.8%) | 1,548,131 | 4,903 | 1,553,034 | 1,543,979 | +9,055 | 0 |
-| StringAlong | 9 (1.8%) | 380 | 0 | 380 | 1,170 | -790 | 0 |
-| underground | 5 (1.0%) | 1,544,551 | 4,903 | 1,549,454 | 150,049 | +1,399,405 | 0 |
-| fusion94.org | 4 (0.8%) | 6,114 | 0 | 6,114 | 3,434 | +2,680 | 0 |
-| damagelabs-www | 2 (0.4%) | 5,358 | 0 | 5,358 | 9 | +5,349 | 0 |
-| collectorsplaybook | 1 (0.2%) | 128 | 0 | 128 | 176 | -48 | 0 |
-| claude-cards | 1 (0.2%) | 676 | 0 | 676 | 0 | +676 | 0 |
+Sorted by commits descending. Net Change = Lines Added - Lines Removed. Test % = Test Lines Added / Total Lines Added for that repo.
 
-> **Note:** `underground` and `sh-underground` each show 1.5M+ lines, indicating bulk imports or generated files. `sports-card-tracker` shows 2.3M lines removed from vendored dependency cleanup. `sh-underground` appears to be a migration/fork of `underground` with ~1.5M lines added and removed.
-
----
-
-## Test Coverage by Repository
-
-| Repository | Test Lines Added | App Lines Added | Test % of Added | Notes |
-|------------|------------------|-----------------|-----------------|-------|
-| whiskey-canon | 12,221 | 20,943 | 36.8% | Strong test investment; Codecov integrated |
-| sports-card-tracker | 6,637 | 12,542 | 34.6% | Good test coverage on new code |
-| whiskey-canon-blinds | 3,269 | 51,336 | 6.0% | |
-| sh-underground | 4,903 | 1,548,131 | 0.3% | Bulk migration skews ratio |
-| underground | 4,903 | 1,544,551 | 0.3% | Bulk import skews ratio |
-| cellar-sync | 0 | 21,296 | 0.0% | New project, early stage |
-| rims | 0 | 24,935 | 0.0% | 321 test lines removed |
-| StringAlong | 0 | 380 | 0.0% | |
-| fusion94 | 0 | 2,246 | 0.0% | Profile/config repo |
-| fusion94.org | 0 | 6,114 | 0.0% | Static site |
-| damagelabs-www | 0 | 5,358 | 0.0% | |
-| collectorsplaybook | 0 | 128 | 0.0% | |
-| claude-cards | 0 | 676 | 0.0% | |
+| Repository | Commits | App Lines +/- | Test Lines +/- | Net Change | Test % | Merged PRs | Issues Created | Issues Closed | Bus Factor |
+|------------|---------|---------------|----------------|------------|--------|------------|----------------|---------------|------------|
+| whiskey-canon | 107 | +16,242 / -3,095 | +12,221 / -1,194 | +24,174 | 42.9% | 42 | 51 | 17 | 1 of 2 |
+| fusion94 | 73 | +2,401 / -738 | +0 / -0 | +1,663 | 0.0% | 0 | 0 | 0 | 2 of 2 |
+| whiskey-canon-blinds | 60 | +32,115 / -1,172 | +3,269 / -16 | +34,196 | 9.2% | 52 | 1 | 0 | 1 of 1 |
+| sports-card-tracker | 54 | +5,554 / -1,644 | +6,637 / -171 | +10,376 | 54.5% | 7 | 32 | 7 | 1 of 1 |
+| cellar-sync | 27 | +6,284 / -4,243 | +0 / -0 | +2,041 | 0.0% | 3 | 33 | 1 | 1 of 1 |
+| rims | 24 | +12,407 / -33,159 | +0 / -321 | -21,073 | 0.0% | 19 | 24 | 22 | 1 of 1 |
+| sh-underground | 14 | +5,519 / -535 | +0 / -0 | +4,984 | 0.0% | 0 | 0 | 0 | 1 of 1 |
+| StringAlong | 9 | +1,063 / -36 | +0 / -0 | +1,027 | 0.0% | 0 | 0 | 0 | 1 of 2 |
+| fusion94.org | 4 | +6,021 / -3,388 | +0 / -0 | +2,633 | 0.0% | 0 | 0 | 0 | 1 of 1 |
+| damagelabs-www | 2 | +1,679 / -9 | +0 / -0 | +1,670 | 0.0% | 0 | 0 | 0 | 1 of 1 |
+| collectorsplaybook | 1 | +128 / -176 | +0 / -0 | -48 | 0.0% | 0 | 0 | 0 | 1 of 1 |
 
 ---
 
 ## Code Quality Signals
 
-| Repository | Avg PR Size (lines) | Commit:PR Ratio | Flag |
-|------------|---------------------|-----------------|------|
-| sports-card-tracker | 341,402.0 | 8.7:1 | ⚠ Bulk cleanup PR skews avg |
-| cellar-sync | 6,335.7 | 10.0:1 | ⚠ Large PRs, high commit:PR ratio |
-| rims | 3,566.0 | 2.1:1 | ⚠ Large PRs |
-| whiskey-canon | 915.3 | 3.5:1 | ⚠ Large PRs |
-| whiskey-canon-blinds | 898.3 | 2.1:1 | ⚠ Large PRs |
+### Average PR Size and Commit-to-PR Ratio
 
-> Repos with avg PR size > 500 lines may benefit from smaller, more focused pull requests. **sports-card-tracker** avg is heavily skewed by a bulk cleanup PR removing 2.38M lines. **cellar-sync** has a high commit:PR ratio (10:1) suggesting many commits are pushed directly without PRs.
+| Repository | Avg PR Size (lines) | Merged PRs | Commits | Commit-to-PR Ratio | Flag |
+|------------|---------------------|------------|---------|---------------------|------|
+| sports-card-tracker | 341,402 | 7 | 54 | 7.7:1 | Likely inflated by generated files in GH-reported data |
+| cellar-sync | 6,336 | 3 | 27 | 9.0:1 | Very large avg PR size (> 500 lines) |
+| rims | 3,566 | 19 | 24 | 1.3:1 | Avg PR > 500 lines |
+| whiskey-canon | 915 | 42 | 107 | 2.5:1 | Avg PR > 500 lines |
+| whiskey-canon-blinds | 898 | 52 | 60 | 1.2:1 | Avg PR > 500 lines |
 
-### File Types by Repository (top extensions by lines added)
+> All 5 repositories with merged PRs exceed the 500-line average PR size threshold. **sports-card-tracker** is heavily skewed by GitHub-reported data that likely includes generated files. **cellar-sync** has a high commit-to-PR ratio (9:1) suggesting many commits are pushed directly without PRs.
 
-| Repository | Primary Types |
-|------------|--------------|
-| whiskey-canon | .ts (16,524), .tsx (8,061), .json (4,746), .md (1,520) |
-| whiskey-canon-blinds | .json (19,145), .ts (18,716), .tsx (10,795), .md (5,562) |
-| cellar-sync | .json (16,222), .md (2,713), .ts (1,620), .tsx (73) |
-| rims | .json (12,495), .tsx (7,767), .ts (3,517) |
-| sports-card-tracker | .ts (9,983), .json (6,740), .md (1,142), .tsx (769) |
-| fusion94 | .svg (1,349), .md (730), .yml (135) |
-| fusion94.org | .html (4,254), .xml (952), .md (872) |
-| damagelabs-www | .json (3,724), .jsx (1,299), .js (184) |
-| claude-cards | .py (442), .md (191), .csv (27) |
+### Top 10 High-Churn Files
+
+| Rank | Repository | File | Commits |
+|------|------------|------|---------|
+| 1 | fusion94 | profile/stats.svg | 36 |
+| 2 | fusion94 | profile/streak.svg | 34 |
+| 3 | fusion94 | README.md | 15 |
+| 4 | fusion94 | .github/workflows/grs.yml | 15 |
+| 5 | whiskey-canon-blinds | server/src/routes/auth.ts | 10 |
+| 6 | whiskey-canon-blinds | src/services/api.ts | 7 |
+| 7 | whiskey-canon | frontend/src/pages/ProfilePage.tsx | 6 |
+| 8 | whiskey-canon | backend/src/routes/auth.test.ts | 6 |
+| 9 | whiskey-canon-blinds | src/pages/Profile.tsx | 6 |
+| 10 | whiskey-canon-blinds | server/src/routes/sessions.ts | 6 |
+
+> **Note:** The top 4 high-churn files are all in the fusion94 profile repo and are driven by automated GitHub stats SVG updates.
 
 ---
 
 ## Collaboration Metrics
 
+Only the 5 repositories with merged PRs are included.
+
 | Repository | Avg PR Turnaround | Avg Comments/PR | Unique Reviewers | Bus Factor |
 |------------|-------------------|-----------------|------------------|------------|
-| whiskey-canon | 46m | 0.6 | 2 | 2 |
-| sports-card-tracker | 2h 0m | 0.0 | 0 | 1 |
-| rims | 3m 49s | 0.0 | 0 | 1 |
-| cellar-sync | 1m 27s | 0.0 | 0 | 1 |
-| whiskey-canon-blinds | < 1m | 0.0 | 0 | 1 |
-| fusion94 | — | — | — | 2 |
-| StringAlong | — | — | — | 2 |
-| sh-underground | — | — | — | 1 |
-| underground | — | — | — | 1 |
-| fusion94.org | — | — | — | 1 |
-| damagelabs-www | — | — | — | 1 |
-| collectorsplaybook | — | — | — | 1 |
-| claude-cards | — | — | — | 1 |
+| whiskey-canon-blinds | 47s | 0.0 | 0 | 1 of 1 |
+| cellar-sync | 1m 27s | 0.0 | 0 | 1 of 1 |
+| rims | 3m 49s | 0.0 | 0 | 1 of 1 |
+| whiskey-canon | 46m | 0.6 | 2 | 1 of 2 |
+| sports-card-tracker | 2h 0m | 0.0 | 0 | 1 of 1 |
 
-> **whiskey-canon** remains the only repo with meaningful PR review activity (2 unique reviewers including Copilot, 0.6 avg comments from Codecov). Most repos have a bus factor of 1, indicating single-contributor projects.
+> **whiskey-canon** is the only repository with meaningful code review activity, averaging 0.6 comments per PR with 2 unique reviewers. All other repositories with merged PRs show zero reviewer engagement, indicating self-merged PRs.
+
+---
+
+## Issue Activity
+
+| Repository | Issues Created | Issues Closed | Close Rate | Avg Resolution Time | Flag |
+|------------|---------------|---------------|------------|---------------------|------|
+| clahub | 120 | 120 | 100.0% | ~5.5 years | Mass issue cleanup of historical issues |
+| whiskey-canon | 51 | 17 | 33.3% | 5.6 days | Close rate < 50% |
+| cellar-sync | 33 | 1 | 3.0% | 25m 11s | Close rate < 50% |
+| sports-card-tracker | 32 | 7 | 21.9% | 17h 33m | Close rate < 50% |
+| rims | 24 | 22 | 91.7% | ~838 days | Old/historical issues being closed |
+| fitbit2garmin | 9 | 3 | 33.3% | ~10.3 days | Close rate < 50% |
+| whiskey-canon-blinds | 1 | 0 | 0.0% | N/A | Close rate < 50% |
+
+> **Note:** The rims average resolution time (~838 days) and clahub average resolution time (~5.5 years) indicate historical issues being bulk-closed during this period, not representative of current workflow cadence. Repos with low close rates (cellar-sync, sports-card-tracker, whiskey-canon) likely have open issues representing planned feature backlogs rather than unresolved bugs.
 
 ---
 
 ## Repo Health Dashboard
 
-| Repository | Last Commit | Open Issues | Open PRs | Branches | Flags |
-|------------|-------------|-------------|----------|----------|-------|
-| whiskey-canon | Feb 10, 2026 | 34 | 0 | 39 | ⚠ 34 issues, 39 branches |
-| sh-underground | Feb 10, 2026 | 0 | 0 | 2 | |
-| fusion94 | Feb 10, 2026 | 0 | 0 | 2 | |
-| cellar-sync | Feb 10, 2026 | 32 | 0 | 5 | ⚠ 32 issues |
-| sports-card-tracker | Feb 9, 2026 | 25 | 0 | 8 | ⚠ 25 issues |
-| rims | Feb 3, 2026 | 2 | 0 | 12 | ⚠ 12 branches |
-| whiskey-canon-blinds | Feb 1, 2026 | 1 | 0 | 6 | |
-| StringAlong | Jan 29, 2026 | 0 | 0 | 2 | |
-| underground | Jan 28, 2026 | 0 | 0 | 2 | |
-| damagelabs-www | Jan 20, 2026 | 0 | 0 | 2 | |
-| claude-cards | Jan 20, 2026 | 0 | 0 | 2 | |
-| fusion94.org | Jan 15, 2026 | 0 | 0 | 2 | |
-| collectorsplaybook | Jan 6, 2026 | 0 | 0 | 3 | |
-| PRDs | Dec 30, 2025 | 0 | 0 | 2 | |
-| Cards/sports-card-tracker | Aug 5, 2025 | 25 | 0 | 2 | |
-| dory/dory-clone | Aug 15, 2025 | — | — | 0 | No remote |
-| recipe-planner/recipe-planner | Aug 18, 2025 | — | — | 0 | No remote |
-| gunken.io | Jul 31, 2025 | 0 | 0 | 2 | |
-| Go-FilamentSamples | Jun 17, 2025 | 1 | 0 | 4 | |
-| image-processing | Jun 18, 2025 | 0 | 0 | 2 | |
-| banderaskyworks | Jun 16, 2025 | 0 | 0 | 3 | |
-| goalert | Apr 2, 2025 | 146 | 30 | 126 | ⚠ 146 issues, 30 open PRs, 126 branches |
-| fitbit2garmin | Dec 17, 2023 | 6 | 1 | 9 | ⚠ 6 issues, stale (2+ years) |
+All repositories (active and inactive) sorted by last commit date.
 
-> **cellar-sync** is a newly active project that already has 32 open issues representing planned features. **whiskey-canon** has 34 open issues and 39 remote branches — may need branch cleanup and issue triage. **goalert** (fork of target/goalert) issues/PRs/branches reflect upstream activity.
+| Repository | Org/Owner | Last Commit | Open Issues | Open PRs | Branches | Flags |
+|------------|-----------|-------------|-------------|----------|----------|-------|
+| whiskey-canon | DamageLabs | 2026-02-10 | 34 | 0 | 38 | >10 open issues, >5 branches |
+| fusion94 | fusion94 | 2026-02-10 | 0 | 0 | 1 | |
+| sh-underground | DamageLabs | 2026-02-10 | 0 | 0 | 1 | |
+| cellar-sync | DamageLabs | 2026-02-10 | 32 | 0 | 4 | >10 open issues |
+| sports-card-tracker | Collectors-Playbook | 2026-02-09 | 25 | 0 | 7 | >10 open issues, >5 branches |
+| rims | DamageLabs | 2026-02-03 | 2 | 0 | 11 | >5 branches |
+| whiskey-canon-blinds | DamageLabs | 2026-02-01 | 1 | 0 | 5 | |
+| StringAlong | DamageLabs | 2026-01-29 | 0 | 0 | 1 | |
+| damagelabs-www | DamageLabs | 2026-01-20 | 0 | 0 | 1 | |
+| fusion94.org | fusion94 | 2026-01-15 | 0 | 0 | 1 | |
+| collectorsplaybook | Collectors-Playbook | 2026-01-06 | 0 | 0 | 2 | |
+| PRDs | DamageLabs | 2025-12-30 | 0 | 0 | 1 | |
+| recipe-planner | (no GitHub) | 2025-08-18 | N/A | N/A | N/A | No GitHub remote |
+| dory-clone | (no GitHub) | 2025-08-15 | N/A | N/A | N/A | No GitHub remote |
+| gunken.io | fusion94 | 2025-07-31 | 0 | 0 | 1 | |
+| image-processing | Collectors-Playbook | 2025-06-18 | 0 | 0 | 1 | |
+| Go-FilamentSamples | fusion94 | 2025-06-17 | 1 | 0 | 3 | |
+| banderaskyworks | Bandera-Skyworks | 2025-06-16 | 0 | 0 | 0 | |
+| clahub | clahub | 2025-03-04 | 0 | 6 | 17 | >5 branches, >5 open PRs |
+| fitbit2garmin | simonepri | 2023-12-17 | 6 | 1 | 8 | >5 branches |
+
+> **whiskey-canon** has 38 branches that may include stale feature branches needing cleanup. **cellar-sync**, **sports-card-tracker**, and **whiskey-canon** each have >10 open issues, likely representing planned feature backlogs. **clahub** has 6 open PRs and 17 branches despite being inactive since March 2025.
 
 ---
 
@@ -250,60 +224,64 @@ xychart-beta
 
 | Extension | Lines Added | % of Total |
 |-----------|-------------|------------|
-| `.js` | 2,431,902 | 74.4% |
-| `.ts` | 342,490 | 10.5% |
-| `.md` | 247,831 | 7.6% |
-| `.json` | 107,292 | 3.3% |
-| `.tsx` | 53,483 | 1.6% |
-| `.flow` | 24,846 | 0.8% |
-| `.cjs` | 14,885 | 0.5% |
-| `.mjs` | 12,420 | 0.4% |
-| (no ext) | 10,832 | 0.3% |
-| `.jsx` | 6,470 | 0.2% |
-| `.html` | 4,559 | 0.1% |
-| `.cts` | 1,924 | 0.1% |
-| `.css` | 1,643 | 0.1% |
-| `.mts` | 1,562 | <0.1% |
-| `.svg` | 1,414 | <0.1% |
-| Other | 5,016 | 0.2% |
-
-> **Excluding `underground` and `sh-underground`** (which together add 2.4M `.js` lines from bulk imports), TypeScript (`.ts` + `.tsx`) dominates at 47.1% of remaining lines added.
+| .ts | 50,357 | 45.1% |
+| .tsx | 26,924 | 24.1% |
+| .md | 13,626 | 12.2% |
+| .jsx | 4,696 | 4.2% |
+| .html | 4,404 | 3.9% |
+| .json | 2,412 | 2.2% |
+| .js | 1,636 | 1.5% |
+| .svg | 1,421 | 1.3% |
+| .css | 1,387 | 1.2% |
+| (no extension) | 1,032 | 0.9% |
+| .xml | 952 | 0.9% |
+| .sh | 878 | 0.8% |
+| .yml | 406 | 0.4% |
+| .cjs | 385 | 0.3% |
+| .conf | 245 | 0.2% |
+| .gitignore | 235 | 0.2% |
+| .sql | 126 | 0.1% |
+| .mjs | 102 | 0.1% |
+| .example | 94 | 0.1% |
+| .prettierignore | 28 | <0.1% |
+| .prettierrc | 13 | <0.1% |
+| .env | 11 | <0.1% |
+| .csv | 2 | <0.1% |
+| .npmrc | 1 | <0.1% |
+| .rspec | 0 | 0.0% |
+| .gitkeep | 0 | 0.0% |
 
 ```mermaid
-pie title File Types by Lines Added (excl. bulk imports)
-    ".json" : 63147
-    ".ts" : 50360
-    ".tsx" : 27465
-    ".md" : 13419
-    ".html" : 4429
-    ".css" : 1612
-    ".jsx" : 1466
-    ".svg" : 1384
-    ".xml" : 952
-    ".sh" : 878
-    ".py" : 442
-    ".yml" : 406
-    ".cjs" : 385
-    "(no ext)" : 380
-    ".js" : 319
+pie title Lines Added by File Type
+    ".ts" : 50357
+    ".tsx" : 26924
+    ".md" : 13626
+    ".jsx" : 4696
+    ".html" : 4404
+    ".json" : 2412
+    ".js" : 1636
+    ".svg" : 1421
+    ".css" : 1387
+    "Other" : 4277
 ```
 
 ---
 
-## Inactive Repositories (no activity since Jan 1, 2026)
+## Inactive Repositories
 
-| Repository | GitHub Org/Owner | Last Commit |
-|------------|------------------|-------------|
-| PRDs | DamageLabs | Dec 30, 2025 |
-| Cards/sports-card-tracker | Collectors-Playbook | Aug 5, 2025 |
-| dory/dory-clone | (no GitHub remote) | Aug 15, 2025 |
-| recipe-planner/recipe-planner | (no GitHub remote) | Aug 18, 2025 |
-| gunken.io | fusion94 | Jul 31, 2025 |
-| Go-FilamentSamples | fusion94 | Jun 17, 2025 |
-| image-processing | Collectors-Playbook | Jun 18, 2025 |
-| banderaskyworks | Bandera-Skyworks | Jun 16, 2025 |
-| goalert | target (fork) | Apr 2, 2025 |
-| fitbit2garmin | simonepri (fork) | Dec 17, 2023 |
+Repositories with 0 commits during the reporting period.
+
+| Repository | Org/Owner | Last Commit | Total Commits |
+|------------|-----------|-------------|---------------|
+| PRDs | DamageLabs | 2025-12-30 | 2 |
+| recipe-planner | (no GitHub) | 2025-08-18 | 1 |
+| dory-clone | (no GitHub) | 2025-08-15 | 1 |
+| gunken.io | fusion94 | 2025-07-31 | 1 |
+| image-processing | Collectors-Playbook | 2025-06-18 | 1 |
+| Go-FilamentSamples | fusion94 | 2025-06-17 | 77 |
+| banderaskyworks | Bandera-Skyworks | 2025-06-16 | 25 |
+| clahub | clahub | 2025-03-04 | 301 |
+| fitbit2garmin | simonepri | 2023-12-17 | 8 |
 
 ---
 
@@ -313,19 +291,17 @@ pie title File Types by Lines Added (excl. bulk imports)
 
 | Rank | Contributor | Commits | % of Total |
 |------|-------------|---------|------------|
-| 1 | Tony Guntharp | 455 | 91.9% |
-| 2 | fusion94 | 38 | 7.7% |
-| 3 | copilot-swe-agent[bot] | 2 | 0.4% |
+| 1 | Tony Guntharp | 334 | 89.1% |
+| 2 | fusion94 | 39 | 10.4% |
+| 3 | copilot-swe-agent[bot] | 2 | 0.5% |
 
-> **Note:** "Tony Guntharp" and "fusion94" are the same person with different git author configs (local vs GitHub-authored commits). Combined: 493 commits (99.6%).
-
-### By Lines Added
+### By Lines Added (estimated)
 
 | Rank | Contributor | Lines Added | % of Total |
 |------|-------------|-------------|------------|
-| 1 | Tony Guntharp | 3,269,175 | 99.96% |
-| 2 | fusion94 | 1,387 | 0.04% |
-| 3 | copilot-swe-agent[bot] | 7 | <0.01% |
+| 1 | Tony Guntharp | ~109,633 | 98.3% |
+| 2 | fusion94 | ~1,366 | 1.2% |
+| 3 | copilot-swe-agent[bot] | ~541 | 0.5% |
 
 ### By Merged PRs
 
@@ -336,54 +312,28 @@ pie title File Types by Lines Added (excl. bulk imports)
 
 ---
 
-## Most Active Projects
-
-The top 3 projects by combined activity (commits + PRs):
-
-1. **whiskey-canon** — 148 commits, 42 merged PRs, +26.7K net lines (36.8% test code). Codecov integration active with automated coverage comments on PRs.
-2. **whiskey-canon-blinds** — 109 commits, 52 merged PRs, +47.1K net lines (6.0% test code)
-3. **fusion94** — 71 commits, 0 PRs, +1.6K net lines (GitHub profile/config repository)
-
----
-
 ## Changes Since Last Report
 
-Compared to the previous report (generated Feb 9, 2026):
-
-| Metric | Previous | Current | Delta |
-|--------|----------|---------|-------|
-| Active Repositories | 11 | 13 | **+2** |
-| Total Commits | 428 | 495 | **+67 (+15.7%)** |
-| Total Lines Added | 1,686,566 | 3,270,569 | +1,584,003 |
-| Total Lines Removed | 2,572,472 | 4,139,315 | +1,566,843 |
-| Total Merged PRs | 119 | 123 | **+4 (+3.4%)** |
-| Avg Commits/Day | 11.0 | 12.1 | +1.1 |
-| Avg Commits/Week | 76.8 | 84.5 | +7.7 |
-| Longest Streak | 17 days | 18 days | +1 day |
-
-### Key Changes
-- **+2 new active repos:** `cellar-sync` (30 commits, 3 PRs, 32 open issues — a new whiskey cellar management app) and `sh-underground` (14 commits, migration/fork of underground with 1.5M+ lines churned)
-- **fusion94** surged from 58 to 71 commits (+13), continuing GitHub profile customization work
-- **sports-card-tracker** went from 52 to 61 commits (+9) and 6 to 7 merged PRs (+1)
-- **whiskey-canon** added 1 commit and 1 PR (148/42 vs 147/41)
-- **W07 (Feb 9–10) is pacing at 97 commits in 2 days**, suggesting another high-activity week
-- **Commit streak extended** from 17 to 18 consecutive days (Jan 24 – Feb 10, still ongoing)
-- **Weekend vs weekday balance shifted** from 54.7% weekend to 47.1% weekend, indicating more weekday development
-- **cellar-sync** launched as a new project with 32 open issues already tracked as a backlog
+No previous report found. This is the baseline report.
 
 ---
 
 ## Notes
 
-- Statistics gathered from local git repositories in `/Users/guntharp/Code/`
-- PR counts reflect merged pull requests on GitHub since 2026-01-01
-- Line counts include all file types tracked by git
-- Test files identified by directory (`test/`, `tests/`, `__tests__/`, `spec/`, `testing/`) and file naming conventions (`_test.go`, `.test.ts`, `.spec.js`, etc.)
-- PR turnaround time measures creation-to-merge duration
-- Bus factor = number of distinct commit authors per repo
-- 2 repositories have no GitHub remote (dory/dory-clone, recipe-planner)
-- `underground` bulk import (1.5M+ lines) and `sh-underground` migration (1.5M+ lines churned) significantly skew aggregate metrics; adjusted figures are provided where relevant
-- `sports-card-tracker` bulk cleanup (2.37M lines removed) heavily skews removal metrics
-- `goalert` is a fork of target/goalert — open issues/PRs/branches reflect upstream activity
-- "Tony Guntharp" and "fusion94" represent the same contributor with different git author configurations
-- Report generated on February 10, 2026
+### Methodology
+- Merge commits are excluded from commit counts.
+- Generated and vendored files are excluded from line counts where detectable.
+- Binary files are excluded from line counts.
+- Test files identified by directory (`test/`, `tests/`, `__tests__/`, `spec/`) and file naming conventions (`*.test.ts`, `*.spec.js`, etc.).
+- PR turnaround time measures creation-to-merge duration.
+- Bus factor = minimum number of authors covering 80% of commits / total unique authors.
+
+### Data Availability
+- GitHub data was unavailable for the following repositories: **dory-clone**, **recipe-planner**. These repos are tracked via local git only.
+
+### Data Caveats
+- The **fusion94** repository commit and line counts are inflated by automated GitHub stats SVG updates (stats.svg = 36 commits, streak.svg = 34 commits during this period).
+- The **sports-card-tracker** GitHub-reported average PR size (341,402 lines) is likely inflated by generated files that are not filtered by the GitHub API. Actual code changes are significantly smaller.
+- The **rims** average issue resolution time (~838 days) and **clahub** average resolution time (~5.5 years) reflect bulk closure of old/historical issues, not current workflow cadence.
+
+**Report generated:** 2026-02-10

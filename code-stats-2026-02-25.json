@@ -1,0 +1,208 @@
+{
+  "generated": "2026-02-25T15:46:30.487661",
+  "dateRange": {
+    "start": "2026-01-01",
+    "end": "2026-02-25"
+  },
+  "authorFilter": null,
+  "totals": {
+    "commits": 928,
+    "linesAdded": 229402,
+    "linesRemoved": 74805,
+    "mergedPRs": 285,
+    "issuesCreated": 464,
+    "issuesClosed": 303
+  },
+  "repos": {
+    "berlin-reunion": {
+      "commits": 198,
+      "linesAdded": 46939,
+      "linesRemoved": 5103,
+      "mergedPRs": 59,
+      "testLinesAdded": 6444,
+      "appLinesAdded": 40495,
+      "issuesCreated": 109,
+      "issuesClosed": 61
+    },
+    "whiskey-canon": {
+      "commits": 202,
+      "linesAdded": 42747,
+      "linesRemoved": 11657,
+      "mergedPRs": 79,
+      "testLinesAdded": 16387,
+      "appLinesAdded": 26360,
+      "issuesCreated": 57,
+      "issuesClosed": 29
+    },
+    "sports-card-tracker": {
+      "commits": 171,
+      "linesAdded": 44713,
+      "linesRemoved": 7747,
+      "mergedPRs": 43,
+      "testLinesAdded": 16789,
+      "appLinesAdded": 27924,
+      "issuesCreated": 61,
+      "issuesClosed": 33
+    },
+    "clahub": {
+      "commits": 139,
+      "linesAdded": 23364,
+      "linesRemoved": 6223,
+      "mergedPRs": 30,
+      "testLinesAdded": 3890,
+      "appLinesAdded": 19474,
+      "issuesCreated": 170,
+      "issuesClosed": 154
+    },
+    "fusion94": {
+      "commits": 77,
+      "linesAdded": 3154,
+      "linesRemoved": 1020,
+      "mergedPRs": 0,
+      "testLinesAdded": 0,
+      "appLinesAdded": 3154,
+      "issuesCreated": 0,
+      "issuesClosed": 0
+    },
+    "whiskey-canon-blinds": {
+      "commits": 60,
+      "linesAdded": 35384,
+      "linesRemoved": 1188,
+      "mergedPRs": 52,
+      "testLinesAdded": 3269,
+      "appLinesAdded": 32115,
+      "issuesCreated": 1,
+      "issuesClosed": 0
+    },
+    "cellar-sync": {
+      "commits": 27,
+      "linesAdded": 6284,
+      "linesRemoved": 4243,
+      "mergedPRs": 3,
+      "testLinesAdded": 0,
+      "appLinesAdded": 6284,
+      "issuesCreated": 33,
+      "issuesClosed": 1
+    },
+    "rims": {
+      "commits": 24,
+      "linesAdded": 12407,
+      "linesRemoved": 33480,
+      "mergedPRs": 19,
+      "testLinesAdded": 0,
+      "appLinesAdded": 12407,
+      "issuesCreated": 24,
+      "issuesClosed": 22
+    },
+    "sh-underground": {
+      "commits": 14,
+      "linesAdded": 5519,
+      "linesRemoved": 535,
+      "mergedPRs": 0,
+      "testLinesAdded": 0,
+      "appLinesAdded": 5519,
+      "issuesCreated": 0,
+      "issuesClosed": 0
+    },
+    "StringAlong": {
+      "commits": 9,
+      "linesAdded": 1063,
+      "linesRemoved": 36,
+      "mergedPRs": 0,
+      "testLinesAdded": 0,
+      "appLinesAdded": 1063,
+      "issuesCreated": 0,
+      "issuesClosed": 0
+    },
+    "fusion94.org": {
+      "commits": 4,
+      "linesAdded": 6021,
+      "linesRemoved": 3388,
+      "mergedPRs": 0,
+      "testLinesAdded": 0,
+      "appLinesAdded": 6021,
+      "issuesCreated": 0,
+      "issuesClosed": 0
+    },
+    "damagelabs-www": {
+      "commits": 2,
+      "linesAdded": 1679,
+      "linesRemoved": 9,
+      "mergedPRs": 0,
+      "testLinesAdded": 0,
+      "appLinesAdded": 1679,
+      "issuesCreated": 0,
+      "issuesClosed": 0
+    },
+    "collectorsplaybook": {
+      "commits": 1,
+      "linesAdded": 128,
+      "linesRemoved": 176,
+      "mergedPRs": 0,
+      "testLinesAdded": 0,
+      "appLinesAdded": 128,
+      "issuesCreated": 0,
+      "issuesClosed": 0
+    },
+    "banderaskyworks": {
+      "commits": 0,
+      "linesAdded": 0,
+      "linesRemoved": 0,
+      "mergedPRs": 0,
+      "testLinesAdded": 0,
+      "appLinesAdded": 0,
+      "issuesCreated": 0,
+      "issuesClosed": 0
+    },
+    "fitbit2garmin": {
+      "commits": 0,
+      "linesAdded": 0,
+      "linesRemoved": 0,
+      "mergedPRs": 0,
+      "testLinesAdded": 0,
+      "appLinesAdded": 0,
+      "issuesCreated": 9,
+      "issuesClosed": 3
+    },
+    "Go-FilamentSamples": {
+      "commits": 0,
+      "linesAdded": 0,
+      "linesRemoved": 0,
+      "mergedPRs": 0,
+      "testLinesAdded": 0,
+      "appLinesAdded": 0,
+      "issuesCreated": 0,
+      "issuesClosed": 0
+    },
+    "gunken.io": {
+      "commits": 0,
+      "linesAdded": 0,
+      "linesRemoved": 0,
+      "mergedPRs": 0,
+      "testLinesAdded": 0,
+      "appLinesAdded": 0,
+      "issuesCreated": 0,
+      "issuesClosed": 0
+    },
+    "image-processing": {
+      "commits": 0,
+      "linesAdded": 0,
+      "linesRemoved": 0,
+      "mergedPRs": 0,
+      "testLinesAdded": 0,
+      "appLinesAdded": 0,
+      "issuesCreated": 0,
+      "issuesClosed": 0
+    },
+    "PRDs": {
+      "commits": 0,
+      "linesAdded": 0,
+      "linesRemoved": 0,
+      "mergedPRs": 0,
+      "testLinesAdded": 0,
+      "appLinesAdded": 0,
+      "issuesCreated": 0,
+      "issuesClosed": 0
+    }
+  }
+}

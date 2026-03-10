@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Tony Guntharp's GitHub Stats, Rank: A</title>
-        <desc id="descId">Total Stars Earned: 160, Total Commits  (last year) : 1643, Total PRs: 441, Total PRs Merged: 430, Total PRs Reviewed: 1, Total Issues: 511, Contributed to (last year): 13</desc>
+        <desc id="descId">Total Stars Earned: 160, Total Commits  (last year) : 1644, Total PRs: 441, Total PRs Merged: 430, Total PRs Reviewed: 1, Total Issues: 511, Contributed to (last year): 13</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 36.97178687235082;
+        stroke-dashoffset: 36.97056787430527;
       }
     }
   

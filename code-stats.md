@@ -38,6 +38,12 @@ A 105-day sprint across 18 repositories producing **2,800 commits** and **557 me
 
 ---
 
+## Contribution Heatmap
+
+![Contribution Heatmap — Dec 2025 to Apr 2026](./contribution-heatmap.svg)
+
+---
+
 ## Per-Repo Breakdown
 
 | Repo | Commits | PRs Merged | Highlights |

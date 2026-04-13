@@ -22,10 +22,19 @@ A 105-day sprint across 18 repositories producing **2,800 commits** and **557 me
 |--------|-------|
 | Total Commits | **2,800** |
 | Total PRs Merged | **557** |
+| Issues Opened | **618** |
+| Issues Closed | **493** |
+| Lines Added | **~450,000+** |
+| Lines Removed | **~120,000+** |
+| Net Lines | **~330,000+** |
 | Repos with active development | **18** |
-| Live deployments shipped | **8+** |
-| New live demo instances | **3** (demo.armory-core.com, demo.uas-log.com, cla-hub.io) |
+| Active commit days | **45 of 105** |
+| Longest commit streak | **8 days** (Mar 13–20) |
+| Live sites deployed | **8** (damagelabs.io, cla-hub.io, fusion94.org, 5 existing) |
+| Demo instances deployed | **2** (demo.armory-core.com, demo.uas-log.com) |
+| Blog posts published | **14** (6 fusion94.org + 8 damagelabs.io) |
 | Gems published | **4** (PTM v0.7–v1.0) |
+| Test suite growth | **0 → 50** (PTM), **0 → 85+** (uas-log) |
 
 ---
 

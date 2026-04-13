@@ -28,8 +28,8 @@ A 105-day sprint across 18 repositories producing **2,800 commits** and **557 me
 | Lines Removed | **~120,000+** |
 | Net Lines | **~330,000+** |
 | Repos with active development | **18** |
-| Active commit days | **45 of 105** |
-| Longest commit streak | **8 days** (Mar 13–20) |
+| Active commit days | **86 of 105** |
+| Longest commit streak | **80 days** (Jan 24 – Apr 13, ongoing 🔥) |
 | Live sites deployed | **8** (damagelabs.io, cla-hub.io, fusion94.org, 5 existing) |
 | Demo instances deployed | **2** (demo.armory-core.com, demo.uas-log.com) |
 | Blog posts published | **14** (6 fusion94.org + 8 damagelabs.io) |
